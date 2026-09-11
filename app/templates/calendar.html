@@ -8,11 +8,23 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap" rel="stylesheet">        
         <link rel="stylesheet" href="/static/css/main.css">
         <style>
+            .calendarplot {
+                margin-bottom: 1rem;
+            }
             .calendarplot-row-header {
-                width: 0.29%
+                width: 0.29%;
+                text-align: right;
+                padding-right: 1rem;
+                border-bottom: 1px solid #eee;
             }
             .calendarplot-day {
                 width: 0.28%
+            }
+            .calendarplot-legend {
+                display: flex;
+                justify-content: center;                
+                border-radius: 4px;
+                background-color: #F9F9F9;
             }
         </style>
     </head>
@@ -20,7 +32,7 @@
         <main class="main">
             <header class="main-header">
                 <div class="main-header-breadcrumb">
-
+                    My Services > Data Trace
                 </div>
                 <div class="main-header-toolbar">
 
@@ -32,14 +44,15 @@
             </nav>
 
             <hgroup class="page-title">
-                <h1>Ingestion</h1>
+                <h1>Data Trace</h1>
+                <p>Click KPI to view more details.</p>
             </hgroup>
 
             <aside class="page-filter">
                 <div class="card">
                     <div class="card-header">
                         <h2>
-                            Filters
+                            <span class="icon"><img src="/static/img/icon-sliders.svg" alt=""></span>Filters
                         </h2>
                         <div class="card-header-actions">
                             <button class="button button-text">Reset</button>
@@ -104,7 +117,7 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <h2>Payloads</h2>
+                        <h2>Successful Ingestion (%)</h2>
                     </div>
                     <div class="card-body">                
 
@@ -131,9 +144,10 @@
                             </tr>            
                         {% endfor %}
                         </table>    
+                        <div class="calendarplot-legend">
+                            <img src="/static/img/calendar-plot-legend.svg" alt="">
+                        </div>
                         
-                    </div>
-                    <div class="card-footer">
                     </div>
                 </div>
 
