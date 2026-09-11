@@ -1,0 +1,18 @@
+{
+    "name": "Python + MySQL",
+    "dockerComposeFile": "../compose.yaml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "charliermarsh.ruff"
+            ]
+        }
+    },
+
+    "shutdownAction": "stopCompose"
+}

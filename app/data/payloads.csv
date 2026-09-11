@@ -1,0 +1,11 @@
+record,ingestion_id,file,status,total,errors,ingestion_time,elapsed_time,in_svc,out_svc
+ccc701b1-e299-4284-8d69-320011cd6b5e,b36300d2-a602-44cb-a395-7319a93b5726,allocstrategy1.csv,Successful w/ Error(s),1.4M,0.014M,01/01/2021 7:00 AM,5m,Ingest,Transform
+b1ca5fdc-7e94-4d87-ad60-ba30ab029145,b4e4974a-7910-467e-b8ce-c63f13afc43a,allocstrategy1.csv,Successful w/ Error(s),1.25M,0.007M,01/02/2021 7:00 AM,3.45m,Ingest,Transform
+5337e8fa-5b7d-4e4f-af1f-993a0dd30e9a,770f9113-af76-445f-9b07-3a478f2b14b1,allocstrategy1.csv,Successful,0.95M,0.03M,01/03/2021 7:00 AM,4.21m,Ingest,Transform
+6f92c861-3522-45d5-9367-09ba7f2c9dcd,ff66d372-5d84-4367-bec4-648d8f66484b,allocstrategy1.csv,Successful,1.8M,0.01M,01/04/2021 7:00 AM,5.12m,Ingest,Transform
+494e5330-fce6-4689-a8ca-2c3d9825a824,78085863-05bf-4fa7-895b-b11c82dad8aa,allocstrategy1.csv,Successful,1.67M,0.011M,01/05/2021 7:00 AM,1.14m,Ingest,Transform
+7121bf65-424a-46b8-8d3c-b7a4999d6e85,1ad5b66a-068d-4785-ad8e-417f6eb6d47e,allocstrategy1.csv,Stop and Report,1.32M,0.008M,01/06/2021 7:00 AM,1.8m,Ingest,Transform
+646856d5-7388-46dc-91a6-4a2d13b1c1d1,2d55c0a0-67d5-424a-905d-274f78dd7374,allocstrategy1.csv,Successful,0.97M,0.015M,01/07/2021 7:00 AM,2.21m,Ingest,Transform
+e49e21a6-e631-4cc8-a318-b32cd48dc00f,5a274234-a8b9-4d2e-8afb-0c0e9cd23269,allocstrategy1.csv,Pass with Warning,1.42M,0.012M,01/08/2021 7:00 AM,3.5m,Ingest,Transform
+0755d3fd-5f9e-4ff1-a561-a3c7a23eed81,d17b317d-2a7c-4794-bf6f-67e4bbc18b6c,allocstrategy1.csv,Successful,1.82M,0.015M,01/09/2021 7:00 AM,4.21m,Ingest,Transform
+d997cfaa-6b79-48cb-8f5c-9fc28f2813d5,89f6cc4c-cb48-4402-aa50-bc6f34f1b480,allocstrategy1.csv,Pass with Warning,1.9M,0.009M,01/10/2021 7:00 AM,3.8m,Ingest,Transform
